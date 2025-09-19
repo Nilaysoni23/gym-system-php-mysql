@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	}
+	
+	body{
+		background-color: wheat;		
+	}
+	#form{
+		background-color: white;
+		width: 25%;
+		margin: 120px auto;
+		padding:50px;
+		box-shadow: 10px 10px 5px rgb(82,11,23);
+		border-radius: 6px;
+		//padding:0.8rem;
+	}
+	#btn{
+		color:white;
+	/*	background-color: rgba(152, 19, 241, 0.604);*/
+	}
+	
+	.body{
+		width:100%;
+		height:100%;
+	
+		background-image:url('15.webp');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center;
+	}
+	.logo{
+		float: left;
+		width: auto;
+		height: 60px;
+	}
+	.navbar{
+		width:85%;
+		margin:2px auto;
+		padding: 35px 0;
+		
+	}
+	.navbar ul{
+		float:right;
+	}
+	.navbar ul li{
+		
+		list-style:none;
+		display:inline-block;
+		margin:0 20px;
+		position:relative;
+	}
+	.navbar ul li a{
+		text-decoration:none;
+		color:#fff;
+		text-transform:uppercase;
+		border:3px solid #fff;
+		transition:0.5s;
+		padding:0.8rem;
+	}
+	.navbar ul li a:hover{
+		background-color: #fff;
+		color:#000;
+	}
+	
+	
+	.header-container{
+		//border:1px solid red;
+		width: 40%;
+		position:relative;
+		top:30%;
+		left:2rem;
+	}
+	
+	.header-container h1{
+		color:white;
+		font-size: 40px;
+	}
+	
+	.header-container h1 .border-bottom{
+		border-bottom: 3px solid red;
+	}
+	
+	.header-container h1 .text-primory{
+		color:red;
+	}
+	
+	.header-container p{
+		width:100%;
+		height:15%;
+		margin-top:2rem;
+		color:white;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		text-align: center;
+		font-size:xx-large;
+	}
+	
+	.header-container .btn{
+		width:15%;
+		height:10%;
+		margin-top:2rem;
+		color:white;
+		text-align: center;
+		font-size:large;
+		background-color: red;
+		margin:auto 40%;
+	}

@@ -1,0 +1,35 @@
+<!Doctype html>
+<head>
+<title>Logo </title>
+
+	<script>
+	
+	var seconds=0;
+	function displayseconds()
+	{
+		seconds +=1;
+       // document.getElementById("secondsdisplay").innerText="this page will be redirect in"+seconds+"seconds..."
+    }
+    setInterval(displayseconds,1000);
+	function redirectpage()
+	{
+		window.location="menu.php";
+	}
+    setTimeout('redirectpage()',4000);
+	//setTimeout('redirectpage()',4000);	
+	</script>
+	
+
+</head>
+
+<body bgcolor="grey">
+	<center>
+    <div id="secondsdisplay"></div>
+	<h1 style="color: white;">Welcome to Fitness Club!!!</h1>
+	<img src="17.png" alt="logo image" width=30% height=30% margin=auto;
+	</center>		
+</body>
+</html>
+
+		
+		
